@@ -18,27 +18,26 @@ const Testimonials = () => {
       </div>
 
       {/* Main Slider Container */}
-      <div className="bg-[#191A23] rounded-[45px] py-20 px-6 md:px-12 relative overflow-hidden">
+      <div className="bg-[#191A23] rounded-[45px] py-20 relative overflow-hidden">
         
-        {/* Carousel Content (Mockup for multiple cards) */}
-        <div className="flex justify-center items-start gap-10 overflow-hidden">
+        {/* Testimonial Cards Wrapper */}
+        <div className="flex justify-center items-center gap-6">
           
           {/* Side Card (Left - Partial) */}
-          <div className="hidden lg:block opacity-40 min-w-[600px] transform -translate-x-1/2">
+          <div className="hidden lg:block min-w-[600px] opacity-40 scale-90">
              <TestimonialCard />
           </div>
 
           {/* Center Card (Active) */}
-          <div className="min-w-full md:min-w-[600px]">
+          <div className="min-w-[600px] mx-10 z-10">
             <TestimonialCard 
-              name="John Smith" 
+              name="John Smith"
               role="Marketing Director at XYZ Corp"
               active={true}
             />
           </div>
-
           {/* Side Card (Right - Partial) */}
-          <div className="hidden lg:block opacity-40 min-w-[600px] transform translate-x-1/2">
+          <div className="hidden lg:block min-w-[600px] opacity-40 scale-90">
              <TestimonialCard />
           </div>
         </div>

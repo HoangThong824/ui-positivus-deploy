@@ -1,6 +1,4 @@
 import { useState } from "react";
-// Sử dụng react-icons để icon +/- trông mượt mà hơn nếu muốn, 
-// nhưng ở đây tôi dùng text để bạn không cần cài thêm thư viện.
 
 const steps = [
   {
