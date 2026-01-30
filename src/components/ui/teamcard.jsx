@@ -39,7 +39,7 @@ export default function TeamCard({ name, role, desc, img }) {
       <hr className="my-5 w-full border-black/20" />
 
       {/* Description */}
-      <p className="text-sm text-white leading-relaxed">
+      <p className="text-sm text-black leading-relaxed">
         {desc}
       </p>
     </div>

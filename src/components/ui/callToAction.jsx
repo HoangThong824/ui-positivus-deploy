@@ -11,7 +11,7 @@ export default function CallToAction() {
             Let’s make things happen
           </h2>
 
-          <p className="text-white mb-8">
+          <p className="text-black mb-8">
             Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.
           </p>
 
