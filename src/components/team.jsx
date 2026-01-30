@@ -42,7 +42,7 @@ const team = [
   },
 ];
 
-export default function TeamSection() {
+const TeamSection = () => {
   return (
     <Container className="pt-[140px]">
     {/* Section Title */}
@@ -70,3 +70,4 @@ export default function TeamSection() {
     </Container>
   );
 }
+export default TeamSection;

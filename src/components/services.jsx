@@ -2,7 +2,7 @@ import SectionTitle from "./ui/sectionTitle";
 import ServiceCard from "./ui/card";
 import Container from "./ui/container";
 import CallToAction from "./ui/callToAction";
-export default function Services() {
+const Services = () => {
   return (
     <Container className="pt-[150px]">
       {/* TITLE */}
@@ -66,3 +66,4 @@ export default function Services() {
     </Container>
   );
 }
+export default Services;

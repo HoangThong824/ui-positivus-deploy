@@ -67,7 +67,7 @@ export default function ServiceCard({
       `}
     >
       {/* LEFT */}
-      <div className="inline-block flex justify-between flex-col px-[25px] py-[25px] h-full">
+      <div className="inline-block flex justify-between flex-col py-[25px] h-full">
         {/* Title */}
         <span
           className={`inline-flex 

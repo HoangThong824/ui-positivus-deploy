@@ -1,9 +1,9 @@
 import SectionTitle from "./ui/sectionTitle";
 import Container from "./ui/container";
 
-export default function Contact() {
+const Contact = () => {
   return (
-    <Container className="pt[140px]">
+    <Container className="pt-[140px]">
 
       {/* TITLE */}
       <div>
@@ -107,3 +107,4 @@ export default function Contact() {
     </Container>
   );
 }
+export default Contact;
