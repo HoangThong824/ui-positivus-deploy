@@ -48,7 +48,7 @@ export default function ProcessAccordion() {
 
             {/* Content & Divider */}
             {isActive && (
-              <div className="px-8 pb-8 md:px-12 md:pb-10">
+              <div className="px-12 pb-10">
                 {/* Border when active */}
                 <div className="border-t-2 border-black mb-6"></div>
                 <p className="text-base md:text-lg text-black leading-relaxed">

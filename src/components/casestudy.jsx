@@ -60,7 +60,6 @@ const CaseStudy = () => {
               <Arrow color="#b9ff66" size={20} />
             </a>
           </div>
-
         </div>
       </div>
     </section>
