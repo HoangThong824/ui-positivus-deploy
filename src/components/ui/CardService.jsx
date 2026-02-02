@@ -1,9 +1,11 @@
-import Arrow from "./arrow";
+import Arrow from "./Arrow";
 
-const LearnMore = ({ dark = false }) => {
+const LearnMore = ({ dark = false, href = "#" }) => {
   return (
-     <div className="flex items-center gap-3 group cursor-pointer">
-      
+    <a
+      href={href}
+      className="inline-flex items-center gap-3 group cursor-pointer"
+    >
       {/* Circle */}
       <div
         className={`
@@ -20,13 +22,13 @@ const LearnMore = ({ dark = false }) => {
 
       {/* Text */}
       <span
-        className={`text-[20px] font-medium ${
+        className={`font-['Space_Grotesk'] text-[20px] font-medium ${
           dark ? "text-white" : "text-black"
         }`}
       >
         Learn more
       </span>
-    </div>
+    </a>
   );
 };
 
@@ -54,7 +56,7 @@ export default function ServiceCard({
     },
   };
 
-  const t = themes[theme];
+  const select_theme = themes[theme];
 
   return (
     <div
@@ -63,11 +65,11 @@ export default function ServiceCard({
         rounded-[45px]
         px-10 py-8
         flex justify-between items-center
-        ${t.bg}
+        ${select_theme.bg}
       `}
     >
       {/* LEFT */}
-      <div className="inline-block flex justify-between flex-col py-[25px] h-full">
+      <div className="font-['Space_Grotesk'] inline-block flex justify-between flex-col py-[25px] h-full">
         {/* Title */}
         <span
           className={`inline-flex 
@@ -75,7 +77,7 @@ export default function ServiceCard({
                     font-semibold 
                     text-[30px]
                     leading-tight
-                     ${t.tag}`}
+                     ${select_theme.tag}`}
         >
           {title1}
         </span>
@@ -86,7 +88,7 @@ export default function ServiceCard({
                     font-semibold 
                     text-[30px]
                     leading-tight
-                    ${t.tag}`}
+                    ${select_theme.tag}`}
         >
           {title2}
         </span>

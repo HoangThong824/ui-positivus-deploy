@@ -1,5 +1,5 @@
-import SectionTitle from "./ui/sectionTitle";
-import Container from "./ui/container";
+import SectionTitle from "./ui/SectionTitle";
+import Container from "./ui/Container";
 
 const Contact = () => {
   return (

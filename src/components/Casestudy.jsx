@@ -1,6 +1,6 @@
-import Container from "./ui/container";
-import SectionHeader from "./ui/sectionTitle";
-import Arrow from "./ui/arrow";
+import Container from "./ui/Container";
+import SectionHeader from "./ui/SectionTitle";
+import Arrow from "./ui/Arrow";
 
 const CaseStudy = () => {
   return (

@@ -1,6 +1,6 @@
 import { FaLinkedinIn, FaFacebookF, FaTwitter } from "react-icons/fa";
-import Container from "./ui/container";
-import IconLogo from "./ui/iconlogo";
+import Container from "./ui/Container";
+import IconLogo from "./ui/IconLogo";
 const Footer = () => {
   return (
 

@@ -1,7 +1,7 @@
 import React from 'react';
-import SectionTitle from './ui/sectionTitle';
-import TestimonialCard from './ui/testimonialCard';
-import Container from './ui/container';
+import SectionTitle from './ui/SectionTitle';
+import TestimonialCard from './ui/TestimonialCard';
+import Container from './ui/Container';
 const Testimonials = () => {
   return (
     <Container className="pt-[140px] pb-[100px]">

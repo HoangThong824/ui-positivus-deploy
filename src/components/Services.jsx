@@ -1,7 +1,7 @@
-import SectionTitle from "./ui/sectionTitle";
-import ServiceCard from "./ui/card";
-import Container from "./ui/container";
-import CallToAction from "./ui/callToAction";
+import SectionTitle from "./ui/SectionTitle";
+import ServiceCard from "./ui/CardService";
+import Container from "./ui/Container";
+import CallToAction from "./ui/CallToAction";
 const Services = () => {
   return (
     <Container className="pt-[150px]">

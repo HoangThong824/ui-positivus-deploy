@@ -1,7 +1,7 @@
-import TeamCard from "./ui/teamcard";
-import SectionTitle from "./ui/sectionTitle";
-import Button from "./ui/button";
-import Container from "./ui/container";
+import TeamCard from "./ui/TeamCard";
+import SectionTitle from "./ui/SectionTitle";
+import Button from "./ui/Button";
+import Container from "./ui/Container";
 import { FaLinkedinIn} from "react-icons/fa";
 const team = [
   {
