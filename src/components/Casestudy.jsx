@@ -27,7 +27,9 @@ const CaseStudy = () => {
               increase in sales.
             </p>
 
-            <a className="mt-6 inline-flex items-center gap-2 text-[#b9ff66] pt-[20px]">
+            <a 
+              href="#"
+              className="mt-6 inline-flex items-center gap-2 text-[#b9ff66] pt-[20px]">
               Learn more 
               <Arrow color="#b9ff66" size={20} />
             </a>
@@ -41,7 +43,9 @@ const CaseStudy = () => {
               increase in organic traffic.
             </p>
 
-            <a className="mt-6 inline-flex items-center gap-2 text-[#b9ff66] font-medium pt-[20px]">
+            <a 
+              href="#"
+              className="mt-6 inline-flex items-center gap-2 text-[#b9ff66] pt-[20px]">
               Learn more 
               <Arrow color="#b9ff66" size={20} />
             </a>
@@ -55,7 +59,9 @@ const CaseStudy = () => {
               increase in online sales.
             </p>
 
-            <a className="mt-6 inline-flex items-center gap-2 text-[#b9ff66] font-medium pt-[20px]">
+            <a 
+              href="#"
+              className="mt-6 inline-flex items-center gap-2 text-[#b9ff66] pt-[20px]">
               Learn more
               <Arrow color="#b9ff66" size={20} />
             </a>

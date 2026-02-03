@@ -47,7 +47,7 @@ const Testimonials = () => {
   const nextIndex = current === total - 1 ? 0 : current + 1;
 
   return (
-    <Container className="pt-[140px] pb-[100px]">
+    <Container className="mt-[140px]">
       <section className="bg-white font-sans">
         {/* Header */}
         <div className="flex flex-col md:flex-row items-center gap-10 mb-20">

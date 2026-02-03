@@ -28,19 +28,25 @@ const Footer = () => {
           {/* Social */}
           <div className="flex gap-4 text-lg ">
             {/* LinkedIn */}
-            <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center cursor-pointer hover:bg-[#B9FF66] transition-colors">
+            <a 
+              href="#"
+              className="w-8 h-8 rounded-full bg-white flex items-center justify-center cursor-pointer hover:bg-[#B9FF66] transition-colors">
               <FaLinkedinIn className="text-black text-[20px]" />
-            </div>
+            </a>
 
             {/* Facebook */}
-            <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center cursor-pointer hover:bg-[#B9FF66] transition-colors">
+            <a 
+              href="#"
+              className="w-8 h-8 rounded-full bg-white flex items-center justify-center cursor-pointer hover:bg-[#B9FF66] transition-colors">
               <FaFacebookF className="text-black text-[20px]" />
-            </div>
+            </a>
 
             {/* Twitter */}
-            <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center cursor-pointer hover:bg-[#B9FF66] transition-colors">
+            <a
+              href="#"
+              className="w-8 h-8 rounded-full bg-white flex items-center justify-center cursor-pointer hover:bg-[#B9FF66] transition-colors">
               <FaTwitter className="text-black text-[20px]" />
-            </div>
+            </a>
           </div>
         </div>
 

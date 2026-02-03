@@ -3,7 +3,7 @@ import Button from "./Button";
 export default function CallToAction() {
   return (
     <section className="pt-[100px]">
-      <div className="bg-[#f2f2f2] rounded-[40px] flex items-center justify-between gap-12">
+      <div className="bg-[#f2f2f2] rounded-[40px] max-h-[350px] flex items-center justify-between gap-12">
 
         {/* LEFT CONTENT */}
         <div className="max-w-[560px] px-[60px] py-[60px]">
