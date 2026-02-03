@@ -4,7 +4,7 @@ import IconLogo from "./ui/IconLogo";
 
 const Footer = () => {
   return (
-    <Container className="pt-20 md:pt-[140px] px-4 md:px-0">
+    <Container className="pt-20 md:pt-[140px]">
       <footer className="bg-[#0f1116] text-white rounded-t-[32px]">
         {/*Layout*/}
         <div className="w-full mx-auto px-6 md:px-[60px] py-12 md:py-16">
