@@ -63,18 +63,19 @@ export default function ServiceCard({
       className={`
         w-[600px] h-[310px]
         rounded-[45px]
-        px-10 py-8
+        px-[50px] py-[50px]
         flex justify-between items-center
         ${select_theme.bg}
+        transition-all duration-300 shadow-[0_5px_0_0_rgba(0,0,0,1)]
       `}
     >
       {/* LEFT */}
-      <div className="font-['Space_Grotesk'] inline-block flex justify-between flex-col py-[25px] h-full">
+      <div className="inline-block flex justify-between flex-col h-full ">
         {/* Title */}
         <span
           className={`inline-flex 
                     rounded-md 
-                    font-semibold 
+                    font-medium 
                     text-[30px]
                     leading-tight
                      ${select_theme.tag}`}
@@ -85,7 +86,7 @@ export default function ServiceCard({
         <span
           className={`inline-flex  
                     rounded-md 
-                    font-semibold 
+                    font-medium 
                     text-[30px]
                     leading-tight
                     ${select_theme.tag}`}

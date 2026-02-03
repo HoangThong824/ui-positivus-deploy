@@ -1,6 +1,6 @@
 import { FaLinkedinIn } from "react-icons/fa";
 
-export default function TeamCard({ name, role, desc, img }) {
+export default function TeamCard({ name, role, desc, img, linkedinLink }) {
   return (
     <div className="bg-white rounded-[32px] border border-black/10 p-6 hover:shadow-lg transition">
       
@@ -30,9 +30,13 @@ export default function TeamCard({ name, role, desc, img }) {
         </div>
 
         {/* Linkedin */}
-        <div className="w-8 h-8 rounded-full bg-black flex items-center justify-center">
-          <FaLinkedinIn className="text-[#B9FF66] text-sm" />
-        </div>
+        <a
+          href={linkedinLink}
+          className="group w-8 h-8 rounded-full bg-black flex items-center justify-center transition-all duration-300 hover:bg-[#B9FF66]"
+        >
+          <FaLinkedinIn className="text-[#B9FF66] text-sm group-hover:text-black" />
+        </a>
+
       </div>
 
       {/* Divider */}
