@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="w-full mx-auto px-[60px] py-16">
 
         {/* ===== TOP ROW ===== */}
-        <div className="flex items-center justify-between mb-14">
+        <div className="flex flex-wrap items-center justify-between mb-14">
           {/* Logo */}
           <div className="flex items-center gap-2 font-semibold text-lg">
             <IconLogo color="text-white" size="24" />

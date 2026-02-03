@@ -15,7 +15,8 @@ const Services = () => {
         }
       />
       {/* SERVICE CARDS */}
-      <div className="w-full flex justify-between items-center pt-10 gap-8">
+      <div className="max-w-[1240px] pt-[80px]
+                      grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10">
         <ServiceCard
             title1="Search engine"
             title2="optimization"
@@ -29,8 +30,6 @@ const Services = () => {
             theme="green"
             image={<img src="/image/card/pay.svg" />}
         />
-      </div>
-      <div className="w-full flex justify-between items-center pt-10 gap-8">
         <ServiceCard
             title1="Social media"
             title2="marketing"
@@ -44,8 +43,6 @@ const Services = () => {
             theme="gray"
             image={<img src="/image/card/email.svg" />}
         />
-      </div>
-      <div className="w-full flex justify-between items-center pt-10 gap-8">
         <ServiceCard
             title1="Content"
             title2="Creation"

@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="mt-[60px]">
       {/* Container */}
-      <div className="mx-auto w-full h-17 flex items-center">
+      <div className="w-full max-w-[1240px] mx-auto h-17 flex flex-wrap items-center">
         
         {/* Logo */}
         <div className="flex items-center gap-2">
