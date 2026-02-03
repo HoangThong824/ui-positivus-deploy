@@ -1,5 +1,5 @@
 import SectionTitle from "./ui/SectionTitle";
-import ServiceCard from "./ui/CardService";
+import ServiceCard from "./ui/ServiceCard";
 import Container from "./ui/Container";
 import CallToAction from "./ui/CallToAction";
 const Services = () => {

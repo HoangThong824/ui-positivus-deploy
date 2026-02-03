@@ -12,7 +12,7 @@ const Process = () => {
                     </>
                 }
             />
-            <ProcessAccordion className="pt-[80px]" />
+            <ProcessAccordion/>
         </Container>
     )   
  }

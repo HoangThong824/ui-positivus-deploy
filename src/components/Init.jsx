@@ -12,14 +12,14 @@ const Init = () => {
         
         {/* Left */}
         <div>
-          <h1 className="font-['Space_Grotesk'] text-[60px] leading-[125%] font-bold text-black 
+          <h1 className="text-[60px] leading-[125%] font-extrabold text-black 
                         text-shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
             Navigating the <br />
             digital landscape <br />
             for success
           </h1>
 
-          <p className="mt-[35px] font-['Space_Grotesk'] test-[20px] text-black max-w-md">
+          <p className="mt-[35px] test-[20px] text-black max-w-md">
             Our digital marketing agency helps businesses <br/> grow and succeed online
             through a range of<br/> services including SEO, PPC, social media marketing,<br/>
             and content creation.

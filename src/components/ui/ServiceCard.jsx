@@ -22,7 +22,7 @@ const LearnMore = ({ dark = false, href = "#" }) => {
 
       {/* Text */}
       <span
-        className={`font-['Space_Grotesk'] text-[20px] font-medium ${
+        className={`text-[20px] font-medium ${
           dark ? "text-white" : "text-black"
         }`}
       >

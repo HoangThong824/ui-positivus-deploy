@@ -6,10 +6,10 @@ export default function TeamCard({ name, role, desc, img, linkedinLink }) {
                     transition-all duration-300 shadow-[0_5px_0_0_rgba(0,0,0,1)] hover:shadow-lg transition">
       
       {/* HEADER */}
-      <div className="flex items-start justify-between">
+      <div className="relative flex items-start justify-between">
         
         {/* Avatar + Info */}
-        <div className="flex items-center gap-4">
+        <div className="flex items-center">
           {/* Avatar */}
           <div className="relative w-[102px] h-[102px]">
             <img
@@ -21,30 +21,28 @@ export default function TeamCard({ name, role, desc, img, linkedinLink }) {
 
           {/* Name + Role */}
           <div className="mt-auto">
-            <h3 className="text-lg font-semibold leading-tight">
+            <h3 className="text-[20px] font-semibold leading-tight">
               {name}
             </h3>
-            <p className="text-sm text-black">
+            <p className="text-lg text-black">
               {role}
             </p>
           </div>
         </div>
-
-        {/* Linkedin */}
+       {/* Linkedin */}
         <a
           href={linkedinLink}
-          className="group w-[34px] h-[34px] rounded-full bg-black flex items-center justify-center transition-all duration-300 hover:bg-[#B9FF66]"
+          className="absolute top-0 right-0 group w-[34px] h-[34px] rounded-full bg-black flex items-center justify-center transition-all duration-300 hover:bg-[#B9FF66]"
         >
           <FaLinkedinIn className="text-[#B9FF66] text-[17px] group-hover:text-black" />
         </a>
-
       </div>
 
       {/* Divider */}
       <hr className="my-5 w-full border-black" />
 
       {/* Description */}
-      <p className="text-sm text-black leading-relaxed">
+      <p className="text-[18px] text-black leading-relaxed">
         {desc}
       </p>
     </div>

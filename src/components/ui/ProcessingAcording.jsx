@@ -17,7 +17,7 @@ export default function ProcessAccordion() {
   const [active, setActive] = useState(1);
 
   return (
-    <div className="w-full mx-auto space-y-6 p-4">
+    <div className="pt-[80px] w-full mx-auto space-y-6 p-4">
       {steps.map((item) => {
         const isActive = active === item.id;
         return (

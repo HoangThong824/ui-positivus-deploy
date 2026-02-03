@@ -22,7 +22,7 @@ const Header = () => {
             <a href="#">Blog</a>
           </nav>
 
-          <button className="px-6 py-3 border border-black rounded-lg text-[20px]">
+          <button className="px-8 py-5 border border-black rounded-[14px] text-[20px]">
             Request a quote
           </button>
         </div>

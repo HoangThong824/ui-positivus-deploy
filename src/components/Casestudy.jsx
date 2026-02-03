@@ -21,7 +21,7 @@ const CaseStudy = () => {
 
           {/* ITEM 1 */}
           <div className="pr-10 border-r border-white">
-            <p className="leading-relaxed text-gray-200">
+            <p className="leading-relaxed text-white">
               For a local restaurant, we implemented a targeted PPC campaign
               that resulted in a 50% increase in website traffic and a 25%
               increase in sales.
@@ -37,7 +37,7 @@ const CaseStudy = () => {
 
           {/* ITEM 2 */}
           <div className="px-10 border-r border-white">
-            <p className="leading-relaxed text-gray-200">
+            <p className="leading-relaxed text-white">
               For a B2B software company, we developed an SEO strategy that
               resulted in a first page ranking for key keywords and a 200%
               increase in organic traffic.
@@ -53,7 +53,7 @@ const CaseStudy = () => {
 
           {/* ITEM 3 */}
           <div className="pl-10">
-            <p className="leading-relaxed text-gray-200">
+            <p className="leading-relaxed text-white">
               For a national retail chain, we created a social media marketing
               campaign that increased followers by 25% and generated a 20%
               increase in online sales.
