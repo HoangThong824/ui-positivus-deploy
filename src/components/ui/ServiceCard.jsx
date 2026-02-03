@@ -60,8 +60,8 @@ export default function ServiceCard({
 
   return (
     <div
-      className={`
-        w-[600px] h-[310px]
+      className={`S
+        lg:w-[600px] lg:h-[310px]
         rounded-[45px]
         px-[50px] py-[50px]
         flex justify-between items-center

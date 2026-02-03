@@ -14,7 +14,7 @@ const Header = () => {
 
         {/* Menu */}
         <div className="ml-auto flex items-center gap-[40px]">
-          <nav className="flex gap-[40px] text-[20px]">
+          <nav className="flex flex-wrap gap-[40px] text-[20px]">
             <a href="#">About us</a>
             <a href="#">Services</a>  
             <a href="#">Use Cases</a>
