@@ -17,10 +17,10 @@ const CaseStudy = () => {
       <section className="w-full mx-auto pt-20">
       <div className="bg-[#0f1115] rounded-[40px] px-16 py-16">
 
-        <div className="flex justify-center gap-10">
+        <div className="flex flex-col lg:flex-row justify-center gap-10">
 
           {/* ITEM 1 */}
-          <div className="pr-10 border-r border-white">
+          <div className="pb-10 lg:pb-0 lg:pr-10 border-b lg:border-b-0 lg:border-r border-white">
             <p className="leading-relaxed text-white">
               For a local restaurant, we implemented a targeted PPC campaign
               that resulted in a 50% increase in website traffic and a 25%
@@ -36,7 +36,7 @@ const CaseStudy = () => {
           </div>
 
           {/* ITEM 2 */}
-          <div className="px-10 border-r border-white">
+          <div className="pb-10 lg:pb-0 lg:pr-10 border-b lg:border-b-0 lg:border-r border-white">
             <p className="leading-relaxed text-white">
               For a B2B software company, we developed an SEO strategy that
               resulted in a first page ranking for key keywords and a 200%
@@ -52,7 +52,7 @@ const CaseStudy = () => {
           </div>
 
           {/* ITEM 3 */}
-          <div className="pl-10">
+          <div className="">
             <p className="leading-relaxed text-white">
               For a national retail chain, we created a social media marketing
               campaign that increased followers by 25% and generated a 20%

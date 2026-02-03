@@ -69,12 +69,12 @@ const Testimonials = () => {
           <div className="flex justify-center items-center gap-6 transition-all duration-500">
 
             {/* Left */}
-            <div className="hidden lg:block min-w-[600px] opacity-40 scale-90">
+            <div className="hidden lg:block lg:min-w-[600px] opacity-40 scale-90">
               <TestimonialCard {...testimonials[prevIndex]} />
             </div>
 
             {/* Center */}
-            <div className="min-w-[600px] min-h-[315px] mx-10 z-10">
+            <div className="lg:min-w-[600px] min-h-[315px] mx-10 z-10">
               <TestimonialCard
                 {...testimonials[current]}
                 active
@@ -82,7 +82,7 @@ const Testimonials = () => {
             </div>
 
             {/* Right */}
-            <div className="hidden lg:block min-w-[600px] opacity-40 scale-90">
+            <div className="hidden lg:block lg:min-w-[600px] opacity-40 scale-90">
               <TestimonialCard {...testimonials[nextIndex]} />
             </div>
           </div>
