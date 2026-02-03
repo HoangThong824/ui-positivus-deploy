@@ -62,7 +62,7 @@ const TeamSection = () => {
     />
     <section className="mt-[80px] w-full mx-auto">
     {/* Grid */}
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid grid-cols-3 gap-10">
         {team.map((item, i) => (
           <TeamCard key={i} {...item} />
         ))}

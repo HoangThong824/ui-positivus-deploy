@@ -41,7 +41,7 @@ export default function ProcessAccordion() {
               </div>
 
               {/* Icon */}
-              <div className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-full border-2 border-black bg-[#F3F3F3] text-2xl font-bold">
+              <div className="w-10 h-10 md:w-[58px] md:h-[58px] flex items-center justify-center rounded-full border-2 border-black bg-[#F3F3F3] text-6xl font-bold">
                 {isActive ? "−" : "+"}
               </div>
             </button>

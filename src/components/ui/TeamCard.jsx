@@ -2,7 +2,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 export default function TeamCard({ name, role, desc, img, linkedinLink }) {
   return (
-    <div className="bg-white rounded-[32px] border border-black px-[35px] py-[40px] 
+    <div className="bg-white rounded-[45px] border border-black px-[35px] py-[40px] 
                     transition-all duration-300 shadow-[0_5px_0_0_rgba(0,0,0,1)] hover:shadow-lg transition">
       
       {/* HEADER */}
