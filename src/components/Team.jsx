@@ -68,7 +68,7 @@ const TeamSection = () => {
         ))}
       </div>
       <div className="mt-[40px] flex justify-end">
-      <Button className="px-[76px] py-4" href="/about">
+      <Button className="w-full sm:w-auto" href="/about">
         See all team
       </Button>
     </div>

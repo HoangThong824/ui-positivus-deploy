@@ -25,7 +25,7 @@ const Init = () => {
           </p>
 
           <div className="mt-[35px]">
-            <Button href="/contact" className="px-[35px] py-[20px]">
+            <Button href="/contact" className="w-full sm:w-auto">
               Book a consultation
             </Button>
           </div>

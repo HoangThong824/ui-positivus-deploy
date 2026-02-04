@@ -1,9 +1,18 @@
 import React from "react";
 const Button =({ children, onClick, className="" }) => {
     return (
-        <button className={`bg-black text-white rounded-[14px] hover:opacity-80 transition ${className}`}>
+        <button className={`inline-flex items-center justify-center
+                           bg-black text-white
+                            rounded-[14px]
+                            px-6 py-3
+                            text-sm sm:text-base
+                            hover:opacity-80
+                            transition
+                            disabled:opacity-50 disabled:cursor-not-allowed
+                            ${className}`
+                          }>
       {children}
-    </button>
+        </button>
     );
 }
 export default Button;
