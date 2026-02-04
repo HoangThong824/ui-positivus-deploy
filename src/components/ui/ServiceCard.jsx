@@ -4,12 +4,13 @@ const LearnMore = ({ dark = false, href = "#" }) => {
   return (
     <a
       href={href}
-      className="inline-flex items-center gap-3 group cursor-pointer"
+      className="inline-flex items-center gap-3 group"
     >
       {/* Circle */}
       <div
         className={`
-          w-10 h-10 rounded-full
+          w-9 h-9
+          sm:w-10 sm:h-10 rounded-full
           flex items-center justify-center
           transition-all duration-300
           ${dark ? "bg-white" : "bg-black"}
@@ -22,7 +23,7 @@ const LearnMore = ({ dark = false, href = "#" }) => {
 
       {/* Text */}
       <span
-        className={`text-[20px] font-medium ${
+        className={`text-base lg:text-[20px] font-medium ${
           dark ? "text-white" : "text-black"
         }`}
       >
@@ -60,23 +61,25 @@ export default function ServiceCard({
 
   return (
     <div
-      className={`S
+      className={`
+        w-full
         lg:w-[600px] lg:h-[310px]
-        rounded-[45px]
-        px-[50px] py-[50px]
+        rounded-[32px] lg:rounded-[45px]
+        p-6 sm:p-8 lg:p-[50px]
         flex justify-between items-center
+        gap-6
         ${select_theme.bg}
         transition-all duration-300 shadow-[0_5px_0_0_rgba(0,0,0,1)]
       `}
     >
       {/* LEFT */}
-      <div className="inline-block flex justify-between flex-col h-full ">
+      <div className="inline-block flex flex-col justify-between h-full ">
         {/* Title */}
         <span
           className={`inline-flex 
                     rounded-md 
                     font-medium 
-                    text-[30px]
+                    text-xl sm:text-2xl lg:text-[30px]
                     leading-tight
                      ${select_theme.tag}`}
         >
@@ -87,7 +90,7 @@ export default function ServiceCard({
           className={`inline-flex  
                     rounded-md 
                     font-medium 
-                    text-[30px]
+                    text-xl sm:text-2xl lg:text-[30px]
                     leading-tight
                     ${select_theme.tag}`}
         >
@@ -95,14 +98,16 @@ export default function ServiceCard({
         </span>
 
         {/* Button */}
-        <div className="mt-25">
+        <div className="mt-6 sm:mt-25">
           <LearnMore dark={theme === "dark"} />
         </div>
       </div>
 
       {/* IMAGE */}
-      <div className="w-[210px] h-[190px] flex items-center justify-center">
-        {image}
+      <div className="w-[120px] sm:w-[160px] lg:w-[210px] flex-shrink-0">
+        <div className="w-full h-auto">
+            {image}
+        </div>
       </div>
     </div>
   );

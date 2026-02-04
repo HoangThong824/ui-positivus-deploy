@@ -2,16 +2,16 @@ import Button from "./Button";
 
 export default function CallToAction() {
   return (
-    <section className="pt-[100px]">
-      <div className="bg-[#f2f2f2] rounded-[40px] max-h-[350px] flex items-center justify-between gap-12">
+    <section className="pt-16 sm:pt-[100px]">
+      <div className="bg-[#f2f2f2] rounded-[40px] flex flex-col md:flex-row items-center justify-between gap-12">
 
         {/* LEFT CONTENT */}
-        <div className="max-w-[560px] px-[60px] py-[60px]">
-          <h2 className="font-['Space_Grotesk'] text-4xl font-semibold text-black mb-4">
+        <div className="w-full max-w-[560px] p-8 sm:p-[60px]">
+          <h2 className="text-2xl sm:text-4xl font-semibold text-black mb-4">
             Let’s make things happen
           </h2>
 
-          <p className="text-black mb-[26px]">
+          <p className="text-black mb-[26px] text-sm sm:text-base">
             Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.
           </p>
 
@@ -25,7 +25,7 @@ export default function CallToAction() {
           <img
             src="/image/callToAc.svg"
             alt="CTA Illustration"
-            className="w-[500px] h[400px]"
+            className="w-full max-w-[500px] h-auto"
           />
 
         </div>

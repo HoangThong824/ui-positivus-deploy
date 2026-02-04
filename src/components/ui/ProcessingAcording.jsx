@@ -17,16 +17,19 @@ export default function ProcessAccordion() {
   const [active, setActive] = useState(1);
 
   return (
-    <div className="pt-[80px] w-full mx-auto space-y-6 p-4">
+    <div className="pt-12 md:pt-[80px] w-full mx-auto space-y-6 p-4">
       {steps.map((item) => {
         const isActive = active === item.id;
         return (
           <div
             key={item.id}
             // shadow-[0_5px_0_0_rgba(0,0,0,1)]
-            className={`rounded-[40px] border-2 border-black transition-all duration-300 shadow-[0_5px_0_0_rgba(0,0,0,1)] ${
-              isActive ? "bg-[#B9FF66]" : "bg-[#F3F3F3]"
-            }`}
+            className={`rounded-[28px] md:rounded-[40px] border-2 border-black 
+                        transition-all duration-300 shadow-[0_5px_0_0_rgba(0,0,0,1)] 
+                        ${
+                          isActive ? "bg-[#B9FF66]" : "bg-[#F3F3F3]"
+                        }`
+                      }
           >
             {/* Header */}
             <button
@@ -34,14 +37,14 @@ export default function ProcessAccordion() {
               className="w-full flex items-center justify-between px-8 py-8 md:px-12"
             >
               <div className="flex items-center gap-6">
-                <span className="text-3xl md:text-5xl font-bold">
+                <span className="text-2xl sm:text-3xl md:text-5xl font-bold">
                   {String(item.id).padStart(2, "0")}
                 </span>
-                <h3 className="text-xl md:text-2xl font-bold text-left">{item.title}</h3>
+                <h3 className="text-base sm:text-lg md:text-2xl font-bold text-left">{item.title}</h3>
               </div>
 
               {/* Icon */}
-              <div className="w-10 h-10 md:w-[58px] md:h-[58px] flex items-center justify-center rounded-full border-2 border-black bg-[#F3F3F3] text-6xl font-bold">
+              <div className="w-8 h-8 md:w-[58px] md:h-[58px] flex items-center justify-center rounded-full border-2 border-black bg-[#F3F3F3] text-6xl font-bold">
                 {isActive ? "−" : "+"}
               </div>
             </button>

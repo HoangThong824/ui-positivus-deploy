@@ -8,20 +8,19 @@ const Init = () => {
     <Container>
       {/* Header */}
       <Header />
-      <section className="py-[70px] grid md:grid-cols-2 gap-12 items-start">
+      <section className="py-[70px] grid grid-col-1 md:grid-cols-2 gap-12 items-start">
         
         {/* Left */}
         <div>
-          <h1 className="text-[60px] leading-[125%] font-extrabold text-black 
+          <h1 className="text-3xl sm:text-4xl lg:text-[60px]
+                         leading-[125%] font-extrabold text-black 
                         text-shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
-            Navigating the <br />
-            digital landscape <br />
-            for success
+            Navigating the digital landscape for success
           </h1>
 
-          <p className="mt-[35px] test-[20px] text-black max-w-md">
-            Our digital marketing agency helps businesses <br/> grow and succeed online
-            through a range of<br/> services including SEO, PPC, social media marketing,<br/>
+          <p className="mt-[35px] test-base sm:text-lg text-black max-w-md">
+            Our digital marketing agency helps businesses grow and succeed online
+            through a range of services including SEO, PPC, social media marketing,<br/>
             and content creation.
           </p>
 
@@ -33,10 +32,12 @@ const Init = () => {
         </div>
 
         {/* Right */}
-        <div className="">
+        <div className="flex justify-center md:justify-end">
           <img
             src="/image/init.svg"
-            className="w-[600px] h-[515px]"
+            className="w-full
+                      max-w-[520px]
+                      h-auto"
           />
         </div>
       </section >
