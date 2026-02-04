@@ -55,7 +55,7 @@ const Testimonials = () => {
             title="Testimonials"
             description={
               <>
-                Hear from Our Satisfied Clients: Read Our Testimonials <br />
+                Hear from Our Satisfied Clients: Read Our Testimonials
                 to Learn More about Our Digital Marketing Services
               </>
             }

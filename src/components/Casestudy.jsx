@@ -10,7 +10,7 @@ const CaseStudy = () => {
         title="Case Studies"
         description={
           <>
-          Explore Real-Life Examples of Our Proven Digital Marketing <br/> Success through Our Case Studies
+          Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies
           </>
         }
       />

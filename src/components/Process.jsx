@@ -8,7 +8,7 @@ const Process = () => {
                 title="Our Working Process "
                 description={
                     <>
-                    Step-by-Step Guide to Achieving <br/> Your Business Goals
+                    Step-by-Step Guide to Achieving Your Business Goals
                     </>
                 }
             />

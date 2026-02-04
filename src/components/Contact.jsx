@@ -11,7 +11,7 @@ const Contact = () => {
           title="Contact Us"
           description={
             <>
-           Connect with Us: Let's Discuss Your <br/>Digital Marketing Needs
+           Connect with Us: Let's Discuss Your Digital Marketing Needs
             </>
           }
         />

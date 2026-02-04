@@ -56,7 +56,7 @@ const TeamSection = () => {
       title="Team"
       description={
         <>
-        Meet the skilled and experienced team behind our<br/>successful digital marketing strategies
+        Meet the skilled and experienced team behind our successful digital marketing strategies
         </>
       }
     />
