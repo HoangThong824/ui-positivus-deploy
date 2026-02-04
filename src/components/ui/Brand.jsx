@@ -1,72 +1,24 @@
 const brands = [
-  "amazon",
-  "dribbble",
-  "hubspot",
-  "notion",
-  "netflix",
-  "zoom",
-  "zoom",
+  { name: "amazon"},
+  { name: "dribbble"},
+  { name: "hubspot"},
+  { name: "notion"},
+  { name: "netflix"},
+  { name: "zoom" },
+  { name: "zoom" },
 ];
 
 export default function Brand() {
   return (
-    <div className="grid grid-cols-7 items-center gap-8">
-      <a
-        href="#"
-      >
-        <img
-          src={'/logo/amazon.svg'}
-          className="h-[48px] grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition"
-        />
-      </a>
-      <a
-        href="#"
-      >
-        <img
-          src={'/logo/dribbble.svg'}
-          className="h-[27px] grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition"
-        />
-      </a>
-      <a
-        href="#"
-      >
-        <img
-          src={'/logo/hubspot.svg'}
-          className="h-[48px] grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition"
-        />
-      </a>
-      <a
-        href="#"
-      >
-        <img
-          src={'/logo/notion.svg'}
-          className="h-[48px] grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition"
-        />
-      </a>
-      <a
-        href="#"
-      >
-        <img
-          src={'/logo/netflix.svg'}
-          className="h-[30px] grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition"
-        />
-      </a>
-      <a
-        href="#"
-      >
-        <img
-          src={'/logo/zoom.svg'}
-          className="h-[22px] grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition"
-        />
-      </a>
-      <a
-        href="#"
-      >
-        <img
-          src={'/logo/zoom.svg'}
-          className="h-[22px] grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition"
-        />
-      </a>
+    <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-8 items-center">
+      {brands.map((brand, i) => (
+        <a key={i} className="flex justify-center items-center h-12">
+          <img
+            src={`/logo/${brand.name}.svg`}
+            className="max-h-full grayscale opacity-70 hover:opacity-100 transition"
+          />
+        </a>
+      ))}
     </div>
   );
 }

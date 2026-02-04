@@ -20,7 +20,7 @@ const Init = () => {
 
           <p className="mt-[35px] test-base sm:text-lg text-black max-w-md">
             Our digital marketing agency helps businesses grow and succeed online
-            through a range of services including SEO, PPC, social media marketing,<br/>
+            through a range of services including SEO, PPC, social media marketing,
             and content creation.
           </p>
 
