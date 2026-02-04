@@ -18,7 +18,7 @@ const Contact = () => {
       </div>
 
       {/* MAIN BOX */}
-      <div className="relative bg-[#f6f6f6] rounded-[32px] p-12 flex flex-col lg:flex-row gap-12 overflow-hidden">
+      <div className="mt-10 lg:mt-20 relative bg-[#f6f6f6] rounded-[32px] p-12 flex flex-col lg:flex-row gap-12 overflow-hidden">
 
         {/* LEFT FORM */}
         <div className="flex-1">

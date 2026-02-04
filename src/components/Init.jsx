@@ -23,7 +23,14 @@ const Init = () => {
             through a range of services including SEO, PPC, social media marketing,
             and content creation.
           </p>
-
+          <div className="flex justify-center md:hidden">
+            <img
+              src="/image/init.svg"
+              className="w-full
+                        max-w-[520px]
+                        h-auto"
+              />
+          </div>
           <div className="mt-[35px]">
             <Button href="/contact" className="w-full sm:w-auto">
               Book a consultation
@@ -32,7 +39,7 @@ const Init = () => {
         </div>
 
         {/* Right */}
-        <div className="flex justify-center md:justify-end">
+        <div className="hidden flex justify-center md:justify-end md:block">
           <img
             src="/image/init.svg"
             className="w-full

@@ -15,7 +15,7 @@ export default function CallToAction() {
             Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.
           </p>
 
-          <Button href="/about" className="px-[35px] py-4">
+          <Button href="/about" className="w-full sm:w-auto">
             Get your free proposal
           </Button>
         </div>

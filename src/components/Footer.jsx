@@ -11,7 +11,7 @@ const Footer = () => {
 
           {/* ===== TOP ROW ===== */}
           {/* Mobile | Desktop*/}
-          <div className="flex flex-col md:flex-row items-center justify-between gap-8 mb-14">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-8 mb-14">
             {/* Logo */}
             <div className="flex items-center gap-2 font-semibold text-lg">
               <IconLogo color="text-white" size="24" />

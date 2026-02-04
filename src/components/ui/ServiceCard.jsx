@@ -18,7 +18,7 @@ const LearnMore = ({ dark = false, href = "#" }) => {
         `}
       >
         {/* Arrow SVG */}
-        <Arrow color={dark ? "black" : "#b9ff66"} size={25} />
+        <Arrow color={dark ? "black" : "#b9ff66"} size={22} />
       </div>
 
       {/* Text */}
@@ -62,10 +62,11 @@ export default function ServiceCard({
   return (
     <div
       className={`
+        relative
         w-full
-        lg:w-[600px] lg:h-[310px]
+        min-h-[260px] lg:min-h-[310px]
         rounded-[32px] lg:rounded-[45px]
-        p-6 sm:p-8 lg:p-[50px]
+        p-6 sm:p-8 lg:p-10
         flex justify-between items-center
         gap-6
         ${select_theme.bg}
@@ -79,7 +80,7 @@ export default function ServiceCard({
           className={`inline-flex 
                     rounded-md 
                     font-medium 
-                    text-xl sm:text-2xl lg:text-[30px]
+                    text-2xl lg:text-[30px]
                     leading-tight
                      ${select_theme.tag}`}
         >
@@ -90,7 +91,7 @@ export default function ServiceCard({
           className={`inline-flex  
                     rounded-md 
                     font-medium 
-                    text-xl sm:text-2xl lg:text-[30px]
+                    text-2xl lg:text-[30px]
                     leading-tight
                     ${select_theme.tag}`}
         >
@@ -98,13 +99,13 @@ export default function ServiceCard({
         </span>
 
         {/* Button */}
-        <div className="mt-6 sm:mt-25">
+        <div className="absolute left-6 bottom-6 lg:left-10 lg:bottom-10">
           <LearnMore dark={theme === "dark"} />
         </div>
       </div>
 
       {/* IMAGE */}
-      <div className="w-[120px] sm:w-[160px] lg:w-[210px] flex-shrink-0">
+      <div className="max-w-[150px] sm:max-w-[180px] lg:w-[210px] flex-shrink-0">
         <div className="w-full h-auto">
             {image}
         </div>
