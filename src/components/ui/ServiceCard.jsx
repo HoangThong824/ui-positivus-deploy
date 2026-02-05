@@ -105,7 +105,7 @@ export default function ServiceCard({
       </div>
 
       {/* IMAGE */}
-      <div className="max-w-[150px] sm:max-w-[150px] lg:max-w-[170px] xl:max-w-[210px] flex-shrink-0">
+      <div className="max-w-[130px] sm:max-w-[150px] lg:max-w-[170px] xl:max-w-[210px] flex-shrink-0">
         {image}
       </div>
     </div>
